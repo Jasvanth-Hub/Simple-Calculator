@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    color: rgb(176, 172, 172);
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-family: 'Fleur De Leah', cursive;
+}
+
+#box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    border: 8px groove black;
+    box-shadow: 3px 3px 20px 2px rgb(88, 87, 87);
+    overflow: hidden;
+    
+}
+#display{
+    background-color: rgb(53, 52, 52);
+    border-top: 4px;
+    width: 300px;
+    height: 80px;
+    border-top-left-radius: 3px;
+    border-top-right-radius:3px ;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+button:active{
+    background-color: rgb(158, 157, 157);
+}
+
+#btns{
+    display: flex;
+    flex-direction: column;
+}
+#btns1{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    border-radius: 0px;
+    font-size: 20px;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border: 2px solid white;
+}
+
+button:hover{
+    background-color: rgb(235, 232, 232);
+}
+
+#btns2{
+    display: flex;
+    flex-direction: row;
+}
+
+#equal{
+    width: 150px;
+    border-bottom-right-radius:4px;
+    background-color: rgb(223, 222, 222);
+}
+
+#dot{
+    border-bottom-left-radius:4px;
+}
+
+.footer{
+    width: 100vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(43, 43, 112);
+    color: white;
+    padding: 6px;
+}
